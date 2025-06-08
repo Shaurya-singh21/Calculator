@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+
+#buttons{
+   padding: 15px 0px 0px 15px;
+   background-color: #1F2041
+;} 
+button{
+   width:120px;
+   height: 120px;
+   font-size: 30px;
+   background-color: white;
+    
+   border-radius: 16px;
+   border-width: 5px;
+   
+}
+button:hover{
+   background-color:darkkhaki ;
+   cursor: pointer;
+}
+#sin{
+font-weight: 600;
+
+
+}
+#exp{
+font-weight: 600;
+
+}
+#cos{
+font-weight: 600;
+}
+#clear{
+font-weight: 600;
+}#log{
+font-weight: 600;
+
+}
+.val1{
+    border:none;
+  outline: none;
+}
+.val2{
+    border:none;
+  outline: none;
+}
+#input{
+   grid-row:span 2;
+   display: flex;
+   padding: 5px;
+   /* margin: 5px; */
+   padding-left: 5px;
+    border-top-right-radius: 16px;
+   border-top-left-radius: 16px;
+}
+#result{
+  padding: 5px;
+  font-size: larger;
+   grid-row:span 2;
+   border-bottom-right-radius: 16px;
+   border-bottom-left-radius: 16px;
+   padding: 5px;
+   padding-right: 15px;
+   /* margin: 5px; */
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#screen{
+   display: grid;
+   grid-template-rows: repeat(4,1fr);
+    overflow: hidden;
+    font-size: larger;
+
+}
+#head{
+   margin-top: 30px;
+
+}
+.warn{
+   background-color: burlywood;
+   display: flex;
+   margin-top: 30px;
+   text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
