@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+<link rel="stylesheet" href="cal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link href="./output.css" rel="stylesheet">
+</head>
+<body class="m-0 p-0 bg-black">
+  <div class="flex items-center justify-center flex-col  ">
+    <h1 id='head' class="  text-center rounded-2xl inline  bg-yellow-500 text-6xl text-black p-1.5 " >Calculator</h1> 
+    <div id="main" class=" rounded-3xl h-[600px] w-[450px] mt-[70px] flex flex-col  justify-evenly items-center bg-[#E9D2C0]  ">
+        <div id="screen" class=" h-[120px] w-[425px] bg-white border-2 border-gray-800 rounded-3xl ">
+            <div id='input' class="flex">
+            <input  type="text" class="val1"  placeholder="Enter 1st Value ">
+            <input  type="text" class="val2"  placeholder="Enter 2nd Value ">
+            </div>    
+            <div id="result" >
+              
+            </div>
+        </div>
+        <div id = "buttons" class=" w-[425px] h-[440px] grid grid-cols-3 gap-2.5 bg-white border-2 border-gray-800 rounded-3xl">
+             <button id="plus"><i class="fa-solid fa-plus"></i></button>
+             <button id="min"><i class="fa-solid fa-minus"></i></button>
+             <button id="divide"><div><i class="fa-solid fa-divide"></i></button>
+             <button id="mul"><i class="fa-solid fa-xmark"></i></button>
+             <button id="sin">Sine</button>
+             <button id="cos">Cosine</button>
+             <button id="clear">clear</button>
+             <button id="exp">exp</button>
+             <button id="log">log</button>
+    </div>
+  </div>
+<footer class="warn"><h1 id="hfoot">WARNING: </h1><p class="pfoot">To use the sine, cosine & log function dont enter the second value</p></footer>
+</body>
+<script src = "cal.js"></script>
+</html>
