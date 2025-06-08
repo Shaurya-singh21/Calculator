@@ -6,14 +6,13 @@
     <title>CALCULATOR</title>
 <link rel="stylesheet" href="cal.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
 <link href="./output.css" rel="stylesheet">
 </head>
-<body class="m-0 p-0 bg-black">
+<body class="m-0 p-0 bg-black ">
   <div class="flex items-center justify-center flex-col  ">
     <h1 id='head' class="  text-center rounded-2xl inline  bg-yellow-500 text-6xl text-black p-1.5 " >Calculator</h1> 
-    <div id="main" class=" rounded-3xl h-[600px] w-[450px] mt-[70px] flex flex-col  justify-evenly items-center bg-[#E9D2C0]  ">
-        <div id="screen" class=" h-[120px] w-[425px] bg-white border-2 border-gray-800 rounded-3xl ">
+    <div id="main" class=" rounded-3xl h-[600px] w-[450px] mt-[50px] flex flex-col  justify-evenly items-center bg-[#E9D2C0]  ">
+        <div id="screen" class=" h-[90px] w-[300px]  sm:h-[120px] sm:w-[425px] bg-white border-2 border-gray-800 rounded-3xl ">
             <div id='input' class="flex">
             <input  type="text" class="val1"  placeholder="Enter 1st Value ">
             <input  type="text" class="val2"  placeholder="Enter 2nd Value ">
@@ -34,7 +33,9 @@
              <button id="log">log</button>
     </div>
   </div>
-<footer class="warn"><h1 id="hfoot">WARNING: </h1><p class="pfoot">To use the sine, cosine & log function dont enter the second value</p></footer>
+<footer class="text-amber-200  text-[18px] font-bold mt-3 align-middle p-2 flex justify-center" ><h1 class="underline underline-offset-2">WARNING</h1>:-
+<p class="pl-1">To use cosine , sine , log functions use enter only first value and please don't enter any alphabets or characters.</p>
+</footer>
 </body>
 <script src = "cal.js"></script>
 </html>
