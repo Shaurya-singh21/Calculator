@@ -10,10 +10,9 @@ button{
    height: 120px;
    font-size: 30px;
    background-color: white;
-    
+   
    border-radius: 16px;
    border-width: 5px;
-   
 }
 button:hover{
    background-color:darkkhaki ;
@@ -40,6 +39,7 @@ font-weight: 600;
 .val1{
     border:none;
   outline: none;
+  padding-left: 10px;
 }
 .val2{
     border:none;
@@ -79,10 +79,4 @@ font-weight: 600;
 #head{
    margin-top: 30px;
 
-}
-.warn{
-   background-color: burlywood;
-   display: flex;
-   margin-top: 30px;
-   text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
 }
